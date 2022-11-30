@@ -14,7 +14,7 @@ class processing () :
 
     def connect_database(self) :
         # Connect to the database
-        self.db = mysql.connector.connect(host="localhost", user="root", password="DisChatDit3$", database="data")
+        self.db = mysql.connector.connect(host="localhost", user="root", password="...", database="data")
         self.cursor = self.db.cursor(buffered=True)
 
     def delete_tables(self) :
