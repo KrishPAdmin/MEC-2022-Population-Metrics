@@ -57,7 +57,7 @@
 <?php
   $servername = "localhost";
   $username = "root";
-  $password = "DisChatDit3$";
+  $password = "...";
   $database = "data";
 
   // Create connection
